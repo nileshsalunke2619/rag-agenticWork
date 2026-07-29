@@ -1,0 +1,18 @@
+# Web framework used to expose the /internal/v1/orchestrate/chat endpoint
+fastapi
+# ASGI server that actually runs the FastAPI app ("[standard]" adds
+# performance + auto-reload extras)
+uvicorn[standard]
+
+# Orchestrates our simple retrieve -> generate graph
+langgraph
+
+# AWS SDK for Python - used to call Bedrock (both Titan Embeddings AND
+# Claude go through this same client via invoke_model())
+boto3
+
+# Official OpenSearch client, used to query AWS OpenSearch
+opensearch-py
+
+# Loads settings from a local .env file into environment variables
+python-dotenv
