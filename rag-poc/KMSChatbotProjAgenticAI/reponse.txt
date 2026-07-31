@@ -1,0 +1,14 @@
+{
+    "answer": {
+        "answer": {
+            "description": "FORM 7 is a specific document required by the Drug Regulatory Authority of Pakistan (DRAP) and Pakistan customs for Covid-19 vaccine (C19V) and conventional shipments exported from Belgium In Stock Out or Singapore SRDC to Pakistan. It contains details about the shipped batch and must be signed by IO Quality as an additional, locally required document in accordance with the Certificate of Compliance (CoC) issued for the shipment. Completing and signing FORM 7 is a prerequisite before GDP release can be performed under EU legislation for shipments destined for Pakistan where the Importer of Records (IOR) is Pfizer Pakistan. It's important to note that FORM 7 is not required for donation C19V shipments where the IOR is the Pakistani government, and that FORM 7 does not serve as a substitute for the Certificate of Compliance.",
+            "header": "Form 7 Overview",
+            "subheader": "Purpose and Requirement for Pakistan Shipments",
+            "references": [
+                "Work Instruction: FORM 7 Completion",
+                "Appendix 1: Example FORM 7 Batch Certification"
+            ],
+            "steps": []
+        }
+    }
+}
