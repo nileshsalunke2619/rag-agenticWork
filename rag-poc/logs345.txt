@@ -1,0 +1,11 @@
+{
+    "answer": {
+        "description": "SOP-126309 applies specifically to Customer Service (CS) at the Logistics Center Zaventem (LCZ) that handles shipments of Nimenrix Emergency Supply out of Logistics Service Provider (LSP3) Essers for UNICEF. It is important to note that Nimenrix shipments that are not on the World Health Organization (WHO) PACK/ARTWORK and are destined for non-UNICEF customers fall outside the scope of this SOP.",
+        "header": "Scope of SOP-126309",
+        "subheader": "Order Processing of Nimenrix Emergency Supply from LSP3 Essers",
+        "references": [
+            "SOP-126309: Order Processing of Nimenrix Emergency Supply from LSP3 Essers"
+        ],
+        "steps": []
+    }
+}
