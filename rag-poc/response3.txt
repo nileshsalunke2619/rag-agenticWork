@@ -1,0 +1,21 @@
+{
+    "answer": {
+        "description": "According to the SOP for Order Processing of Nimenrix Emergency Supply from LSP3 Essers, Customs plays a specific role within the export documentation part of the process. After Customer Service Logistics Center Zaventem (CS LCZ) requests the export documents, Customs is responsible for issuing these documents and providing them to both the CS and LSP3 teams. Once received, CS LCZ then shares these customs documents with the UNICEF Freight Forwarder (FF), enabling the shipment to proceed with the required export clearance.",
+        "header": "Role of Customs in Order Processing",
+        "subheader": "Customs Documentation Step",
+        "references": [
+            "SOP - Order Processing of Nimenrix Emergency Supply from LSP3 Essers, Section 4: General Requirements"
+        ],
+        "steps": [
+            [
+                "CS LCZ requests the Customs export documents"
+            ],
+            [
+                "Customs issues the export documents and provides them to the CS LCZ and LSP3 Essers teams"
+            ],
+            [
+                "CS LCZ shares the customs documents with the UNICEF Freight Forwarder"
+            ]
+        ]
+    }
+}
