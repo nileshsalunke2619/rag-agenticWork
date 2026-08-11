@@ -1,0 +1,26 @@
+Question: Where is the plant code?
+
+response in Test environment:
+{
+    "answer": {
+        "description": "I couldn't find any information in the retrieved context that explains where to check the plant code. The passages available only contain repeated document header details (such as status, effective date, version, and document title) for the SOP on Nimenrix Emergency Supply order processing, and do not address plant code lookup. Could you clarify what process or document you're referring to, or provide more specific details so I can help further?",
+        "header": "",
+        "subheader": "",
+        "references": [],
+        "steps": []
+    }
+}
+
+
+=====================================================
+
+But getting correct response from dev environment (got from UI) as below :
+
+Locating the Plant Code in Material Master (MM03)
+Organizational Levels Screen
+Based on the retrieved context, the plant code is entered on the 'Organizational Levels' screen within the Material Master (transaction MM03). After selecting the desired view(s) for a material, the system presents an Organizational Levels pop-up where you specify the Plant field (along with other organizational data such as Sales Org. and Distribution Channel, if applicable). This plant code should correspond to the routing you are working with, and after entering it you continue into the material master view — for example, the 'Foreign Trade: Export Data' view, where the HS Code appears under 'Comm./imp. code no.'
+Steps:
+Go to transaction MM03 – Material Master Data and enter the material number
+Select the required view(s), such as Foreign Trade: Export Data
+On the Organizational Levels screen, enter the plant code as per your routing under the 'Plant' field
+Continue to proceed into the selected view, where related data (e.g., HS Code under Comm./imp. code no.) can be reviewed
