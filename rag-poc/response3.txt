@@ -1,0 +1,32 @@
+{
+    "answer": {
+        "description": "FORM 7 is a batch certification document required by the Drug Regulatory Authority of Pakistan (DRAP) and Pakistan customs for shipments exported from Belgium (In Stock) and Singapore SRDC to Pakistan. It applies to both COVID-19 vaccine (C19V) shipments and conventional shipments, and must contain details about the shipped batch. It must be signed by IO Quality as an additional local requirement, per the Certificate of Compliance (CoC) issued, and this signoff must occur prior to GDP release being performed under EU legislation for shipments where the Importer of Records (IOR) is Pfizer Pakistan. FORM 7 is not required for Donation C19V shipments where the IOR is the Pakistani government, and it cannot be used as a substitute for the CoC. The completed FORM 7 template captures fields such as the HS code, product name, batch number, manufacturer's name and address, manufacturing and expiry dates, supplier's name and address, and the quality signoff. Regarding plant code: when completing the product name field on the FORM 7 template, the process directs the user to look up the material in SAP (transaction MM03); in the example shown for this lookup, the plant code associated with the material record is BE45.",
+        "header": "FORM 7 Certification - Pakistan",
+        "subheader": "Purpose, Requirements, and Plant Code Reference",
+        "references": [
+            "WI - Form 7 Certification - Pakistan, Section 2, p.3"
+        ],
+        "followupquestions": [
+            "How do I find the HS code needed for FORM 7?",
+            "What is the process for FORM 7 when the shipment is a donation to Pakistan?",
+            "How do I find the manufacturer's name and address for FORM 7?"
+        ],
+        "steps": [
+            [
+                "Open the template FORM-114552 - FORM - C19V - Form 7 template (Pakistan)"
+            ],
+            [
+                "Complete Field A with the relevant HS code, referring to the HS code lookup guidance"
+            ],
+            [
+                "Complete Field B with the product name, which can be found by displaying the material in SAP transaction MM03 (this lookup also shows the associated plant code, e.g., BE45)"
+            ],
+            [
+                "Complete the remaining fields: batch number, manufacturer's name and address, manufacturing date, expiry date, and supplier's name and address"
+            ],
+            [
+                "Obtain the quality signoff on behalf of the manufacturer to finalize the certification"
+            ]
+        ]
+    }
+}
