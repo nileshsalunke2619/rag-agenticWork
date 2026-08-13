@@ -1,0 +1,41 @@
+{
+    "answer": {
+        "description": "For an ISI/ISO (Local Supply Point) routing, goods are shipped to the LSP warehouse where they are taken into stock and quality released, with a lead time of 2 days. IO CSR is responsible for preparing the shipping documentation (invoice and packing list) and communicating with the relevant party, though the retrieved context is cut off at that point and does not fully detail who that communication is with. In terms of temperature control, for Road/Air ISO-VLSP shipments to the end destination, the manufacturing site ships the goods to Belgium using a temperature-controlled truck (without TT4 loggers). For the onward shipment from Belgium to the final destination, the Forwarding Instruction Letter (FIL) normally specifies adding TT4's (for road) or RTTM's (for air) to the pallets. If this is not automatically indicated (e.g., for a new routing), IO CSR must coordinate the correct setup of the Packing Loading Shipping (PLS) instructions in SAP with the PLS Team, or request that the warehouse manually add the TT4's/RTTM's to the shipment. As a general rule, any clinical trial shipment must be shipped with a TT4 (road) or RTTM (air).",
+        "header": "Handling of ISI/ISO Clinical Trial Shipments",
+        "subheader": "",
+        "references": [
+            "WI – Clinical trials order management, Section 5. Order Management Procedure, p.15 and p.17"
+        ],
+        "followupquestions": [
+            "What is the difference in handling between DS, XD, and ISI/ISO routings?",
+            "What documentation is required for ISI/ISO shipments beyond the invoice and packing list?"
+        ],
+        "steps": [
+            [
+                "Goods are shipped to the LSP warehouse and taken into stock (lead time: 2 days)"
+            ],
+            [
+                "Goods are quality released at the LSP warehouse"
+            ],
+            [
+                "IO CSR prepares the shipping documentation (invoice, packing list)"
+            ],
+            {
+                "Temperature control logger coordination for Road/Air ISO-VLSP shipments": [
+                    [
+                        "Manufacturing site ships goods to Belgium via temperature-controlled truck (no TT4)"
+                    ],
+                    [
+                        "FIL instructions normally indicate adding TT4's (road) or RTTM's (air) to the pallets for the leg from Belgium to destination"
+                    ],
+                    [
+                        "If not automatically indicated (e.g., new routing), IO CSR coordinates PLS instruction setup in SAP with the PLS Team, or requests the warehouse to manually add the TT4's/RTTM's"
+                    ]
+                ]
+            },
+            [
+                "Any clinical trial shipment must be shipped with a TT4 (road) or RTTM (air)"
+            ]
+        ]
+    }
+}
