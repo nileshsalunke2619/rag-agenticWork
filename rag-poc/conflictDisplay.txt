@@ -1,0 +1,180 @@
+Conflict displaying
+---------
+Need to add into System prompt -  that  there are possible more than one correct answer from different references then give 2nd conflict answer in conflict section <<>> of json {answer {}}
+
+
+Steps
+
+“conflict” : { answer : {     }
+}
+
+Heading
+Subheading
+Description
+Ref
+Steps
+
+Heading
+Subheading
+Description
+Ref
+Steps
+
+Which is more suitable One first answer or second answer
+=====================================================================================================
+Hint :- complete more than 2 set of answers for given questions then follow the below format json for showing best 2 possible answers. 
+
+references is mandatory field if answers are coming from SOPs, if no reference then do not show
+
+followupquestions - if required keep possible follow-up question in this section
+ 
+Both answers are exist
+ 
+{
+  "answer": {
+    "description": "string — main answer, always populated",
+    "header": "string or empty",
+    "subheader": "string or empty",
+    "references": ["string", "..."],
+    "followupquestions": ["string", "..."],
+    "steps": [
+      ["Value of step1"],
+      ["Value of step2"],
+      {
+        "Value of step3": [
+          ["Value of step3.1"],
+          ["Value of step3.2"],
+          {
+            "Value of step3.3": [
+              ["Value of step3.3.1"],
+              ["Value of step3.3.2"]
+            ]
+          }
+        ]
+      },
+      ["Value of step4"]
+    ]
+  },
+"answeroption": {
+    "description": "string — main answer, always populated",
+    "header": "string or empty",
+    "subheader": "string or empty",
+    "references": ["string", "..."],
+"followupquestions": ["string", "..."],
+    "steps": [
+      ["Value of step1"],
+      ["Value of step2"],
+      {
+        "Value of step3": [
+          ["Value of step3.1"],
+          ["Value of step3.2"],
+          {
+            "Value of step3.3": [
+              ["Value of step3.3.1"],
+              ["Value of step3.3.2"]
+            ]
+          }
+        ]
+      },
+      ["Value of step4"]
+    ]
+  }
+ 
+}
+ 
+ 
+====
+ 
+if 2nd answer is blank
+ 
+{
+  "answer": {
+    "description": "Main answer description goes here.",
+    "header": "Main Header",
+    "subheader": "Subheader text",
+    "references": [
+      "Reference 1",
+      "Reference 2"
+    ],
+"followupquestions": [],
+    "steps": [
+      "Value of step1",
+      "Value of step2",
+      {
+        "Value of step3": [
+          "Value of step3.1",
+          "Value of step3.2",
+          {
+            "Value of step3.3": [
+              "Value of step3.3.1",
+              "Value of step3.3.2"
+            ]
+          }
+        ]
+      },
+      "Value of step4"
+    ]
+  },
+  "answeroption": {}
+}
+ 
+ 
+=========
+if 2nd answer is exists
+{
+  "answer": {
+    "description": "Main answer description goes here.",
+    "header": "Main Header",
+    "subheader": "Subheader text",
+    "references": [
+      "Reference 1",
+      "Reference 2"
+    ],
+"followupquestions": ["string", "..."],
+    "steps": [
+      "Value of step1",
+      "Value of step2",
+      {
+        "Value of step3": [
+          "Value of step3.1",
+          "Value of step3.2",
+          {
+            "Value of step3.3": [
+              "Value of step3.3.1",
+              "Value of step3.3.2"
+            ]
+          }
+        ]
+      },
+      "Value of step4"
+    ]
+  },
+  "answeroption": {
+    "description": "Main answer description goes here.",
+    "header": "Main Header",
+    "subheader": "Subheader text",
+    "references": [
+      "Reference 1",
+      "Reference 2"
+    ],
+"followupquestions": ["string", "..."],
+    "steps": [
+      "Value of step1",
+      "Value of step2",
+      {
+        "Value of step3": [
+          "Value of step3.1",
+          "Value of step3.2",
+          {
+            "Value of step3.3": [
+              "Value of step3.3.1",
+              "Value of step3.3.2"
+            ]
+          }
+        ]
+      },
+      "Value of step4"
+    ]
+  }
+ 
+}
