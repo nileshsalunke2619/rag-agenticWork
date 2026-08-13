@@ -1,0 +1,46 @@
+Scenario 1 – Multiple applicable SOPs, different but valid guidance: The SOPs address the same user query from different process contexts. The guidance is not contradictory. The chatbot should display the applicable answer from each SOP, with its SOP reference, so the user can identify which applies. 
+1. What documents are required for a shipment?
+SOP-104302 answer:
+The general shipment process requires the applicable shipment/export documentation to be prepared before shipment execution.
+SOP-130689 answer:
+For a PAHO shipment, the required documentation includes the invoice, packing list, certificate of origin, certificate of insurance and applicable import/export license.
+Why this is Scenario 1:
+SOP-130689 provides PAHO-specific additional documentation. It does not contradict the general process in SOP-104302.
+Expected AI response:
+The required documents depend on the shipment type.
+General shipment – SOP-104302: Applicable shipment/export documentation must be prepared.
+PAHO shipment – SOP-130689: Invoice, packing list, certificate of origin, certificate of insurance and applicable import/export license are required.
+Reference - : SOP-104302, SOP-130689.
+________________________________________
+2. Who communicates shipment status?
+SOP-104302:
+CSR communicates shipment status to the customer and follows up on the shipment.
+SOP-130689:
+For PAHO shipments, CSR communicates shipment status to the Tender Strategy Analyst/Commercial Team so that the PAHO contact can be informed.
+Why: Different communication paths for different business contexts.
+Expected AI response:
+For a general shipment, CSR communicates shipment status to the customer. For a PAHO shipment, CSR communicates status through the Tender Strategy Analyst/Commercial Team.
+Reference: SOP-104302 and SOP-130689.
+
+
+
+Scenario 2 – Genuine conflict: The SOPs provide different/contradictory instructions for the same conditions. The chatbot must explicitly flag the conflict and must not arbitrarily choose one answer. 
+1. Does a serialized product need to be decommissioned before shipment?
+SOP-104302 answer:
+Serialized products shipped from a GL&NS LSP to a non-EU country need to be decommissioned. The SOP also identifies decommissioning requirements for serialized supplies going to a PharmSci Ship-To location.
+SOP-129268 answer:
+The clinical-trial SOP contains its own requirements for clinical supplies and their shipment/decommissioning conditions.
+Why conflict:
+The conditions for when decommissioning is required can differ depending on the general versus clinical-trial process.
+Expected AI response:
+Conflict identified.
+SOP-104302: [general decommissioning requirement]
+SOP-129268: [clinical-trial-specific requirement]
+________________________________________
+2. Does a serialized clinical-trial product always need to be decommissioned?
+SOP-104302:
+Decommissioning is required under the specified destination/Ship-To conditions.
+SOP-129268:
+Clinical-trial-specific requirements apply based on the applicable clinical shipment scenario.
+AI response:
+The SOPs contain conditional requirements rather than a universal rule. Please select the applicable shipment scenario before determining whether decommissioning is required.
