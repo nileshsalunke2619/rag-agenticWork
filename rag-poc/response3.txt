@@ -1,0 +1,54 @@
+Question- Who communicates shipment status? and what is form 7 and steps
+
+Getting below response:
+
+{
+    "answer": {
+        "description": "Shipment status communication depends on which process you're asking about, and there is a separate document called Form 7 with its own certification process for Pakistan shipments.\n\nWho communicates shipment status: For PAHO tender orders, the Local Center Customer Service (LC CS) team communicates the shipment status to the Tender Strategy Analyst/Commercial Team, who in turn informs the PAHO contact so that tracking is followed up until arrival. For the export crossdock process at the Logistics Center Panama, the LSP Export Analyst monitors and sends the shipment pre-alert to the final customer, copying the Local Customer Service and the Freight Forwarder contact. For Pakistan-bound Form 7 shipments, it is IO CSR SIN who monitors shipment status in SAP.\n\nWhat Form 7 is: Form 7 is a country-specific certification document required by the Drug Regulatory Authority of Pakistan (DRAP) and Pakistani customs for Covid-19 vaccine and conventional shipments exported from Belgium or from the Singapore SRDC to Pakistan, where the Importer of Record is Pfizer Pakistan. It must be signed by IO Quality as an additional local requirement, in line with the Certificate of Compliance (CoC), and is required before GDP release for these shipments. It is not required for donation Covid-19 vaccine shipments where the Importer of Record is the Pakistani government, and it cannot replace the CoC.\n\nSteps in the Form 7 process:",
+        "header": "Shipment Status Communication and Form 7 Certification (Pakistan)",
+        "subheader": "",
+        "references": [
+            "WI - Form 7 Certification - Pakistan, Section 5.2. Process flow - Form 7 - Ex Belgium to Pakistan, p.5",
+            "SOP - Pan American Health Organization (PAHO) tender orders processing, Section 5.2. Pre-Alignment - Weekly Meeting. /Roles and Responsibility., p.8"
+        ],
+        "followupquestions": [
+            "What happens if IO Quality finds an issue with the batch information on Form 7?",
+            "What documents must be provided for a PAHO tender shipment?",
+            "How is the shipment pre-alert process handled at the Panama crossdock?"
+        ],
+        "steps": [
+            [
+                "IO CSR SIN monitors the shipment status in SAP (ZPMON) and, once the outbound delivery is ready to ship / pick pack completed, issues the invoice, packing list, and Certificate of Origin"
+            ],
+            [
+                "IO CSR SIN completes Form 7 and sends it via email to LCZ_GDP_COVID_Release@pfizer.com"
+            ],
+            [
+                "IO Quality verifies the batch information on Form 7"
+            ],
+            {
+                "If correction is required": [
+                    [
+                        "The form is sent back for correction ('not ok')"
+                    ]
+                ]
+            },
+            {
+                "If verified as correct": [
+                    [
+                        "IO Quality signs Form 7 and sends it back to CSR within a maximum of 2 working days, and uploads it into Fiori"
+                    ]
+                ]
+            },
+            [
+                "CSR sends the signed Form 7 to the Pakistan customer via email, and prints a hard copy in color for bank presentation submission if required"
+            ],
+            [
+                "IO Quality signs off the form, sends a copy via email, and uploads it into Fiori prior to the product's arrival at the market"
+            ],
+            [
+                "IO VCS / IO CSR SIN (CSR) provides the signed Form 7 to the forwarder and the Pakistan market contact"
+            ]
+        ]
+    }
+}
