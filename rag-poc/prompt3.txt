@@ -1,0 +1,47 @@
+Question- what is form 7 and steps
+
+Getting below response:
+
+{
+    "answer": {
+        "description": "FORM 7 is a specific document required by the Drug Regulatory Authority of Pakistan (DRAP) and Pakistan customs, containing details about a shipped vaccine batch. It applies to Covid-19 vaccine (C19V) shipments and conventional shipments exported from Belgium In Stock or Singapore SRDC to Pakistan. It must be signed by IO Quality as an additional local requirement for Pakistan, based on the Certificate of Compliance (CoC) that has already been issued, and is required prior to GDP release for every shipment to Pakistan where the Importer of Records (IOR) is Pfizer Pakistan. FORM 7 is not required for donation C19V shipments where the IOR is the Pakistani government, and it cannot replace the Certificate of Compliance (CoC). The process for completing Form 7 can only begin once the CoC has been issued, and it involves coordination between the IO CSR SIN (Customer Service Representative) and IO Quality teams.",
+        "header": "FORM 7 Certification for Pakistan Shipments",
+        "subheader": "Ex-Belgium Shipment Process Flow",
+        "references": [
+            "WI - Form 7 Certification - Pakistan, Section 2. Scope, p.3",
+            "WI - Form 7 Certification - Pakistan, Section 5.2. Process flow - Form 7 - Ex Belgium to Pakistan, p.5"
+        ],
+        "followupquestions": [
+            "What happens if the FORM 7 batch information is not verified as ok by IO Quality?",
+            "Is FORM 7 required for donation shipments to Pakistan?"
+        ],
+        "steps": [
+            [
+                "CSR (SIN) monitors shipment status in SAP - ZPMON (ISO, XD, VLSP) until the outbound delivery is ready to ship or pick-pack is completed"
+            ],
+            [
+                "CSR issues shipment documents (invoice, packing list, certificate of origin)"
+            ],
+            [
+                "CSR completes FORM 7 and sends it via email to LCZ_GDP_COVID_Release@pfizer.com"
+            ],
+            [
+                "IO Quality verifies the batch information on Form 7"
+            ],
+            {
+                "If correction is required": [
+                    [
+                        "CSR sends Form 7 via email to the Pakistan customer and a hard copy printed in colour is submitted for bank presentation, if any"
+                    ]
+                ]
+            },
+            {
+                "If verified ok": [
+                    [
+                        "IO Quality signs Form 7 and sends it back to CSR within a maximum of 2 working days, then uploads it into Fiori"
+                    ]
+                ]
+            }
+        ]
+    }
+}
