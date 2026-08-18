@@ -1,49 +1,82 @@
-Question- How to create Return SAP transaction for physical inventory return from Third party customer to origin source ?
+  "question": "what is the process for completing form-120141 during a market or consignment transfer, and can any of the steps happen at the same time?
 
 {
     "answer": {
-        "description": "Returning physical inventory from a third-party (end) customer back to the point of origin is a two-part SAP process within the consignment management framework. First, the goods are returned from the end customer into consignment stock using sales order type ZCKR. If the material must then continue further back to the original point of origin (the physical location used in the original supply routing), this is performed as an Export Consignment Pick-up. Note that a pick-up cannot be routed to an SAP plant code with a different VAT than the country it is shipping to - for example, a return to Belgium requires a Belgium VAT plant code to be present in the original supply routing.",
-        "header": "Creating a Return SAP Transaction (Customer to Origin)",
-        "subheader": "ZCKR Return and Export Consignment Pick-up",
+        "description": "The process for completing FORM-120141 (the EU Consignment Transfer Request Document, or TRD) differs slightly depending on whether the transfer is a general EU consignment transfer or a PEBV market transfer, though the core actions are similar. For an EU Consignment Transfer, steps 2 through 9 of the overall process are explicitly noted as able to proceed simultaneously, which includes the FORM-120141 completion and signature steps. For a PEBV market transfer, the same general sequence of obtaining supporting documentation, completing the form, and having it reviewed is followed, but the retrieved guidance for that process does not indicate that steps can run in parallel.",
+        "header": "Completing FORM-120141 During a Transfer",
+        "subheader": "EU Consignment Transfer vs. PEBV Market Transfer",
         "references": [
-            "SOP - Consignment Management"
+            "SOP - EU consignment Transfers",
+            "SOP - PEBV market transfers "
         ],
         "documentids": [
-            "SOP-131890"
+            "SOP-123693",
+            "SOP-139026"
         ],
         "followupquestions": [
-            "What is the full process description for Export Consignment Pick-up?",
-            "Who approves the removal of the billing block for a ZCKR return?",
-            "What inventory impact does a ZCKR return have in the SAP system?"
+            "What happens after FORM-120141 is completed and signed?",
+            "What should be done if a SKU is not in the correct SAP flex routing?",
+            "What is required for the Pedigree Form (FORM-120142) in an EU Consignment Transfer?"
         ],
         "steps": [
             {
-                "Step 1 - Return from end customer into consignment (ZCKR)": [
+                "EU Consignment Transfer (steps 2-9 can proceed simultaneously)": [
                     [
-                        "The LMR sends an email to the GL&NS CSR specifying the goods, the reason for the return, and it must be signed by the market's finance lead or director."
+                        "The Local Market Representative (LMR) of the receiving market obtains the appropriate COA/COC"
                     ],
                     [
-                        "Because ZCKR results in a credit note, the billing block must be removed by requesting approval from the GL&NS CSR's team lead/manager."
+                        "The LMR completes FORM-120141 and requests all required signatures in MSB together, with the relevant Entity Quality Authority signing last after all other signatures are complete"
                     ],
                     [
-                        "The GL&NS CSR creates the credit note in the Pfizer SAP system."
+                        "The GCF for the receiving market assists with completing the TRD and adds the relevant data to the tracker on PEBV GNOSIS so a reference number can be obtained and entered into FORM-120141"
                     ],
                     [
-                        "This results in a physical and/or administrative movement of goods from the end customer to the consignment stock, generating inventory in SAP at the consignment holder's location."
+                        "The GCF for the receiving market performs a SAP flex routing check; if the SKU is not in the appropriate routing, an ICMD ticket is opened to add the SKU or resolve MDC errors, adding partner code Z925980 as 'Goods Supplier' if a new routing is required"
                     ]
                 ]
             },
             {
-                "Step 2 - Return to origin source (Export Consignment Pick-up)": [
+                "PEBV Market Transfer": [
                     [
-                        "If material must go from the consignment location back to the point of origin or another physical location used in the original supply routing, an Export Consignment Pick-up is performed."
+                        "The LMR of the receiving market obtains the appropriate COA/COC or requests a change control document from EQMS"
                     ],
                     [
-                        "The pick-up must be routed to an SAP plant code with a matching VAT to the destination country as in the original supply routing (e.g., returning to Belgium requires a Belgium VAT plant code)."
+                        "The LMR completes FORM-120141 and requests all required signatures in MSB together, with the relevant Entity Quality Authority signing last"
+                    ],
+                    [
+                        "The GCF CSR for the receiving market assists with completing the TRD and adds the relevant data to the tracker so a reference number can be obtained and entered into FORM-120141"
+                    ],
+                    [
+                        "The GCF CSR for the receiving market performs a SAP flex routing check; if the SKU is not in the appropriate routing, an NSMD ticket is opened to resolve the issue, adding partner code Z925980 as 'Goods Supplier' if a new routing is required"
                     ]
                 ]
             }
         ]
+    },
+    "answeroption": {}
+}
+
+==============================
+
+
+"question": "when obtaining the COA/COC for a transfer, is there more than one way to source it?"
+
+{
+    "answer": {
+        "description": "Based on the retrieved documentation, only one method for sourcing the Certificate of Analysis (COA) is described. All shipments require a COA, and it is expected to be included with the shipment documentation before the cargo arrives. If it is missing at that point, Customer Service is responsible for requesting it directly from the contact at the source plant. The context does not mention any alternative sourcing channels or methods beyond this, so if you're asking about a different scenario (such as sourcing a COC specifically, or a different transfer type), the available documentation doesn't cover that distinction.",
+        "header": "Sourcing the COA for a Shipment/Transfer",
+        "subheader": "",
+        "references": [
+            "WI - Cross Dock and Stock  in – Stock out  transactions  managed by  Customer Service at  Logistics Center Panama"
+        ],
+        "documentids": [
+            "SOP-110381"
+        ],
+        "followupquestions": [
+            "What happens if the COA is still missing after requesting it from the source plant?",
+            "What is required if a shipment needs a re-exportation certificate of origin?"
+        ],
+        "steps": []
     },
     "answeroption": {}
 }
