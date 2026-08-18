@@ -1,0 +1,191 @@
+2026-08-18 18:15:55,088 | INFO     | POST https://mc9xamsc1uiy9cxgnwt9.aoss.ap-southeast-1.on.aws:443/kms-index-sop-oz/_search [status:200 request:0.030s]
+2026-08-18 18:15:55,091 | INFO     | Done. Found 5248 cross-document match(es).
+
+====================================================================================================
+TOP 30 CROSS-DOCUMENT TOPICAL MATCHES (highest similarity first)
+This is a triage list, NOT a list of confirmed conflicts - read the
+content of each pair yourself to judge whether it's a genuine
+contradiction (Case 2), a complementary synthesis (Case 1), or an
+unrelated false positive.
+====================================================================================================
+
+#1  score=1.0000
+  A: 'Jobaid-C19V – How to find Correct Number of Doses in SAP for specific F-codes for making the price list' (section='Failure modes', page=9)
+     [TABLE START] +--------------+-----------+----------------------+------------+ | Failure Mode | Detection | Resolution and owner | Escalation | +--------------+-----------+----------------------+------------+ | N/A | N/A | N/A | N/A | +--------------+-----------+----------------------+------------+ ...
+  B: 'Jobaid - C19V - Instructions  to use VK13 t-code  for proactive  MWST check on  Sales Order Level' (section='Failure modes', page=8)
+     [TABLE START] +--------------+-----------+----------------------+------------+ | Failure Mode | Detection | Resolution and owner | Escalation | +--------------+-----------+----------------------+------------+ | N/A | N/A | N/A | N/A | +--------------+-----------+----------------------+------------+ ...
+
+#2  score=1.0000
+  A: 'Jobaid - C19V - Instructions  to use VK13 t-code  for proactive  MWST check on  Sales Order Level' (section='Failure modes', page=8)
+     [TABLE START] +--------------+-----------+----------------------+------------+ | Failure Mode | Detection | Resolution and owner | Escalation | +--------------+-----------+----------------------+------------+ | N/A | N/A | N/A | N/A | +--------------+-----------+----------------------+------------+ ...
+  B: 'Jobaid-C19V – How to find Correct Number of Doses in SAP for specific F-codes for making the price list' (section='Failure modes', page=9)
+     [TABLE START] +--------------+-----------+----------------------+------------+ | Failure Mode | Detection | Resolution and owner | Escalation | +--------------+-----------+----------------------+------------+ | N/A | N/A | N/A | N/A | +--------------+-----------+----------------------+------------+ ...
+
+#3  score=1.0000
+  A: 'JobAid - Embargo - How to assign an SO to an existing GTS licence and how to release legal control and embargo blocks on an SO or OBD' (section='Failure modes', page=18)
+     [TABLE START] +--------------+-----------+----------------------+------------+ | Failure Mode | Detection | Resolution and owner | Escalation | +--------------+-----------+----------------------+------------+ | N/A | N/A | N/A | N/A | +--------------+-----------+----------------------+------------+ ...
+  B: 'Jobaid-C19V – How to find Correct Number of Doses in SAP for specific F-codes for making the price list' (section='Failure modes', page=9)
+     [TABLE START] +--------------+-----------+----------------------+------------+ | Failure Mode | Detection | Resolution and owner | Escalation | +--------------+-----------+----------------------+------------+ | N/A | N/A | N/A | N/A | +--------------+-----------+----------------------+------------+ ...
+
+#4  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='3.3 Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='3.3. Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+
+#5  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='3.3 Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='3.3. Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+
+#6  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='6. SAP related failures', page=13)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#7  score=1.0000
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='3.3. Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='3.3. Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+
+#8  score=1.0000
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='3.3. Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='3.3. Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+
+#9  score=1.0000
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.4. SAP related failures', page=19)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+
+#10  score=1.0000
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.4. SAP related failures', page=19)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#11  score=1.0000
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='3.3. Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='3.3 Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+
+#12  score=1.0000
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='3.3. Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='3.3. Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+
+#13  score=1.0000
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='6. SAP related failures', page=20)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+
+#14  score=1.0000
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='6. SAP related failures', page=20)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#15  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='3.3. Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='3.3 Related documents', page=4)
+     [TABLE START] +------------+-----------------------------------------------------------------------------------+ | Reference | Title | +------------+-----------------------------------------------------------------------------------+ | SOP-113897 | SOP - ULS and NF - Outbound shipment management by ...
+
+#16  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='3.3. Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='3.3. Related documents', page=4)
+     Reference Title SOP - ULS and NF - Outbound shipment management by Vaccine SOP-113897 Customer Service (VCS) SOP-115990 WI - ULS - ZBSTO - Covid vaccine order management cockpit
+
+#17  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='6. SAP related failures', page=20)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+
+#18  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.4. SAP related failures', page=19)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#19  score=1.0000
+  A: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+  B: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+
+#20  score=1.0000
+  A: 'WI - How to process Prevenar vials shipments for United Nations International Children’s Emergency Fund (UNICEF)' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +-------------+-----------------------------------------------------------------------------+ | Reference | Title | +-------------+-----------------------------------------------------------------------------+ | SOP-104302 | SOP - Logistic Center End-to-End Order Processing | +--------...
+  B: 'WI - How to process Prevenar vials shipments for Pan American Health Organization (PAHO)' (section='3.3. Related documents', page=4)
+     [TABLE START] +-------------+-----------------------------------------------------------------------------+ | Reference | Title | +-------------+-----------------------------------------------------------------------------+ | SOP-104302 | SOP - Logistic Center End-to-End Order Processing | +--------...
+
+#21  score=1.0000
+  A: 'WI - How to process Prevenar vials shipments for Pan American Health Organization (PAHO)' (section='3.3. Related documents', page=4)
+     [TABLE START] +-------------+-----------------------------------------------------------------------------+ | Reference | Title | +-------------+-----------------------------------------------------------------------------+ | SOP-104302 | SOP - Logistic Center End-to-End Order Processing | +--------...
+  B: 'WI - How to process Prevenar vials shipments for United Nations International Children’s Emergency Fund (UNICEF)' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +-------------+-----------------------------------------------------------------------------+ | Reference | Title | +-------------+-----------------------------------------------------------------------------+ | SOP-104302 | SOP - Logistic Center End-to-End Order Processing | +--------...
+
+#22  score=1.0000
+  A: 'WI - From Toller: Shipment from Nagoya to Export Market' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+  B: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+
+#23  score=1.0000
+  A: 'WI - Tolling Chain: Shipment of Tolled Semi Finished Goods between Nagoya and CMO' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+  B: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+
+#24  score=1.0000
+  A: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+  B: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section='3. Acronyms, Definitions & Related documents', page=4)
+     [TABLE START] +------------+--------------------------------------------------------+ | Reference | Title | +------------+--------------------------------------------------------+ | SOP-107567 | Japan Tolling | +------------+--------------------------------------------------------+ | SOP-105011 | Ad...
+
+#25  score=0.9999
+  A: 'Processing of transshipments via X dock (XD)' (section=None, page=1)
+     Pfizer Controlled Document  Document Signatures:  Signature Date/Time (GMT) Signature Reason Herrera, Julia Stella 11-Feb-2026 08:00:25 Departmental Approval Van Gansberghe, Marijke 11-Feb-2026 08:30:40 Author Approval Shakele, Sydney 21-Feb-2026 11:16:26 Quality Approval Wuytack,Peter 24-Feb-2026 0...
+  B: 'SOP - Processing of transshipments via Logistic Service Provider(LSP)' (section=None, page=1)
+     Pfizer Controlled Document  Document Signatures:  Signature Date/Time (GMT) Signature Reason Herrera, Julia Stella 11-Feb-2026 08:00:53 Departmental Approval Van Gansberghe, Marijke 11-Feb-2026 08:30:03 Author Approval Shakele, Sydney 21-Feb-2026 11:15:43 Quality Approval Wuytack,Peter 24-Feb-2026 0...
+
+#26  score=0.9999
+  A: 'SOP - Processing of transshipments via Logistic Service Provider(LSP)' (section=None, page=1)
+     Pfizer Controlled Document  Document Signatures:  Signature Date/Time (GMT) Signature Reason Herrera, Julia Stella 11-Feb-2026 08:00:53 Departmental Approval Van Gansberghe, Marijke 11-Feb-2026 08:30:03 Author Approval Shakele, Sydney 21-Feb-2026 11:15:43 Quality Approval Wuytack,Peter 24-Feb-2026 0...
+  B: 'Processing of transshipments via X dock (XD)' (section=None, page=1)
+     Pfizer Controlled Document  Document Signatures:  Signature Date/Time (GMT) Signature Reason Herrera, Julia Stella 11-Feb-2026 08:00:25 Departmental Approval Van Gansberghe, Marijke 11-Feb-2026 08:30:40 Author Approval Shakele, Sydney 21-Feb-2026 11:16:26 Quality Approval Wuytack,Peter 24-Feb-2026 0...
+
+#27  score=0.9999
+  A: 'CD-60389 – JobAid - Manual Outbound Delivery (OBD) GLNS' (section=None, page=1)
+     [TABLE START] +----------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +----------------------+----------------------+-----------------------+ | Verlaenen, Charlotte | 08-Mar-2023 12:38:13 | Author Approval | +----------------------+-...
+  B: 'JobAid - Manual Pro-Forma F5' (section=None, page=1)
+     [TABLE START] +----------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +----------------------+----------------------+-----------------------+ | Verlaenen, Charlotte | 08-Mar-2023 12:36:49 | Author Approval | +----------------------+-...
+
+#28  score=0.9999
+  A: 'JobAid - Manual Pro-Forma F5' (section=None, page=1)
+     [TABLE START] +----------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +----------------------+----------------------+-----------------------+ | Verlaenen, Charlotte | 08-Mar-2023 12:36:49 | Author Approval | +----------------------+-...
+  B: 'CD-60389 – JobAid - Manual Outbound Delivery (OBD) GLNS' (section=None, page=1)
+     [TABLE START] +----------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +----------------------+----------------------+-----------------------+ | Verlaenen, Charlotte | 08-Mar-2023 12:38:13 | Author Approval | +----------------------+-...
+
+#29  score=0.9999
+  A: 'Processing of transshipments via X dock (XD)' (section=None, page=1)
+     [TABLE START] +-------------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +-------------------------+----------------------+-----------------------+ | Herrera, Julia Stella | 11-Feb-2026 08:00:25 | Departmental Approval | +-----------...
+  B: 'SOP - Processing of transshipments via Logistic Service Provider(LSP)' (section=None, page=1)
+     [TABLE START] +-------------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +-------------------------+----------------------+-----------------------+ | Herrera, Julia Stella | 11-Feb-2026 08:00:53 | Departmental Approval | +-----------...
+
+#30  score=0.9999
+  A: 'SOP - Processing of transshipments via Logistic Service Provider(LSP)' (section=None, page=1)
+     [TABLE START] +-------------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +-------------------------+----------------------+-----------------------+ | Herrera, Julia Stella | 11-Feb-2026 08:00:53 | Departmental Approval | +-----------...
+  B: 'Processing of transshipments via X dock (XD)' (section=None, page=1)
+     [TABLE START] +-------------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +-------------------------+----------------------+-----------------------+ | Herrera, Julia Stella | 11-Feb-2026 08:00:25 | Departmental Approval | +-----------...
+PS C:\Users\Administrator\Documents\git-rep\ModularFinal\kms-aichatbot-repository\KMSChatbotProjAgenticAI> 
