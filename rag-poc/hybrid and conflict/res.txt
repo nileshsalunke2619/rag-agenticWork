@@ -1,0 +1,49 @@
+Question- How to create Return SAP transaction for physical inventory return from Third party customer to origin source ?
+
+{
+    "answer": {
+        "description": "Returning physical inventory from a third-party (end) customer back to the point of origin is a two-part SAP process within the consignment management framework. First, the goods are returned from the end customer into consignment stock using sales order type ZCKR. If the material must then continue further back to the original point of origin (the physical location used in the original supply routing), this is performed as an Export Consignment Pick-up. Note that a pick-up cannot be routed to an SAP plant code with a different VAT than the country it is shipping to - for example, a return to Belgium requires a Belgium VAT plant code to be present in the original supply routing.",
+        "header": "Creating a Return SAP Transaction (Customer to Origin)",
+        "subheader": "ZCKR Return and Export Consignment Pick-up",
+        "references": [
+            "SOP - Consignment Management"
+        ],
+        "documentids": [
+            "SOP-131890"
+        ],
+        "followupquestions": [
+            "What is the full process description for Export Consignment Pick-up?",
+            "Who approves the removal of the billing block for a ZCKR return?",
+            "What inventory impact does a ZCKR return have in the SAP system?"
+        ],
+        "steps": [
+            {
+                "Step 1 - Return from end customer into consignment (ZCKR)": [
+                    [
+                        "The LMR sends an email to the GL&NS CSR specifying the goods, the reason for the return, and it must be signed by the market's finance lead or director."
+                    ],
+                    [
+                        "Because ZCKR results in a credit note, the billing block must be removed by requesting approval from the GL&NS CSR's team lead/manager."
+                    ],
+                    [
+                        "The GL&NS CSR creates the credit note in the Pfizer SAP system."
+                    ],
+                    [
+                        "This results in a physical and/or administrative movement of goods from the end customer to the consignment stock, generating inventory in SAP at the consignment holder's location."
+                    ]
+                ]
+            },
+            {
+                "Step 2 - Return to origin source (Export Consignment Pick-up)": [
+                    [
+                        "If material must go from the consignment location back to the point of origin or another physical location used in the original supply routing, an Export Consignment Pick-up is performed."
+                    ],
+                    [
+                        "The pick-up must be routed to an SAP plant code with a matching VAT to the destination country as in the original supply routing (e.g., returning to Belgium requires a Belgium VAT plant code)."
+                    ]
+                ]
+            }
+        ]
+    },
+    "answeroption": {}
+}
