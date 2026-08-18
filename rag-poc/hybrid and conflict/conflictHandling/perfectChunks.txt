@@ -1,0 +1,379 @@
+2026-08-18 18:34:04,126 | INFO     | POST https://mc9xamsc1uiy9cxgnwt9.aoss.ap-southeast-1.on.aws:443/kms-index-sop-oz/_search [status:200 request:0.030s]
+2026-08-18 18:34:04,129 | INFO     | Done. Found 4664 cross-document match(es).
+
+====================================================================================================
+MOST LIKELY CONFLICT CANDIDATES - moderate similarity (0.75-0.98), same topic but NOT identical wording
+Read this section FIRST. Same topic, different wording is the
+actual signature of a genuine disagreement between two sources -
+still a triage list, not confirmed conflicts, but a much better
+place to look than the near-duplicate section below.
+====================================================================================================
+
+#1  score=0.9799
+  A: 'SOP - PEBV market transfers ' (section='5.2.', page=13)
+     [TABLE START] +------+----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'SOP - EU consignment Transfers' (section='5.2.', page=13)
+     [TABLE START] +------+----------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#2  score=0.9799
+  A: 'SOP - EU consignment Transfers' (section='5.2.', page=13)
+     [TABLE START] +------+----------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'SOP - PEBV market transfers ' (section='5.2.', page=13)
+     [TABLE START] +------+----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#3  score=0.9798
+  A: 'WI - C19V – VCS Process for overflow shipments (Puurs to European Distribution Center)' (section='Document Signatures:', page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  3  3.3. Related documents  3  4. General Requirements  3  5. Procedure  5  5.1. Block diagram: example Puurs to Karlsruhe:  5  5.2. Detailed process steps  6  6. History of Changes  8  7....
+  B: 'SOP-137155 – WI – Execution of Air Shipments for SLOC 2050 GLNS' (section=None, page=2)
+     1. Purpose  2  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  2  3.3. Related documents  2  4. General Requirements  3  5. Procedure  3  5.1. Process description  3  6. History of Changes  5  7. Appendix  5  Pfizer Internal Use - Page 1 of 5  Unoffi...
+
+#4  score=0.9796
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='5.2.1. Block diagram', page=12)
+     6 Adjust MSO MSO will automatically be updated (additional lines added) Automated via flex with the actual to be shipped quantity, material code and batch. Outbound Delivery (OBD) 7 Supplier's OBD created automatically based on STO Automated via flex (supplier > affiliate market) Bundling Manifestin...
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=14)
+     6 Adjust MSO Automated via flex MSO will automatically be updated (additional lines added) with the actual to be shipped quantity, material code and batch. Outbound Delivery 7 (OBD) (supplier > Supplier's OBD created automatically based on STO Automated via flex affiliate market) Bundling Manifestin...
+
+#5  score=0.9796
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=14)
+     6 Adjust MSO Automated via flex MSO will automatically be updated (additional lines added) with the actual to be shipped quantity, material code and batch. Outbound Delivery 7 (OBD) (supplier > Supplier's OBD created automatically based on STO Automated via flex affiliate market) Bundling Manifestin...
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='5.2.1. Block diagram', page=12)
+     6 Adjust MSO MSO will automatically be updated (additional lines added) Automated via flex with the actual to be shipped quantity, material code and batch. Outbound Delivery (OBD) 7 Supplier's OBD created automatically based on STO Automated via flex (supplier > affiliate market) Bundling Manifestin...
+
+#6  score=0.9796
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.3.2 Detailed process steps', page=16)
+     [TABLE START] +--------+-------------+-----------------+-------------------+--------------+---------+-----------+--------------------+ | Status | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | Doc Name | SOP-113899 | +--------+-------------+-----------------+-------------------+---------...
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='4. General Requirements', page=6)
+     [TABLE START] +--------+-------------+-----------------+--------------+--------------+-----------+---------------+----------------+ | Status | Effective | Effective Date | 02-May-2024 | Version | 3.0 | Doc Name | SOP-113898 | +--------+-------------+-----------------+--------------+--------------+--...
+
+#7  score=0.9794
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.2.2. Detailed process steps', page=13)
+     [TABLE START] +-----------+------+-----------+----------------+-------------------+--------------+---------+-------------+-----+------------------------+------------+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | Doc Name | | SOP-113899 | | +-----------+------+-----------+-...
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='6. SAP related failures', page=14)
+     [TABLE START] +--------+-------+------------+----------------+---------------------------+---------+-----------------+--+-----------+----------------+------------+ | Status | | Effective | Effective Date | 02-May-2024 | Version | 3.0 | | Doc Name | SOP-113898 | | +--------+-------+------------+-----...
+
+#8  score=0.9790
+  A: 'WI - Tolling Chain: Shipment of Tolled Semi Finished Goods between Nagoya and CMO' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+
+#9  score=0.9790
+  A: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'WI - Tolling Chain: Shipment of Tolled Semi Finished Goods between Nagoya and CMO' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+
+#10  score=0.9790
+  A: 'WI – C19V – VCS process for shipments to EU markets – sales via PEBV (archetype D1)' (section='5.1.2 Detailed process steps', page=8)
+     [TABLE START] +------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI – C19V – VCS process for shipment to BionTech' (section='5.1.2. Detailed process steps', page=8)
+     [TABLE START] +-----------+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#11  score=0.9790
+  A: 'WI – C19V – VCS process for shipment to BionTech' (section='5.1.2. Detailed process steps', page=8)
+     [TABLE START] +-----------+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI – C19V – VCS process for shipments to EU markets – sales via PEBV (archetype D1)' (section='5.1.2 Detailed process steps', page=8)
+     [TABLE START] +------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#12  score=0.9787
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.1.2. Detailed process steps', page=8)
+     7 STO from SPC to non-EU affiliate market Automated via flex market) Outbound Delivery 8 (OBD) (supplier > Supplier's OBD created automatically based on SC-STO Automated via flex SPC) Bundling Manifesting Order will be entered in the Logistyx transport booking tool 9 Interface/manual (Logistyx), Lab...
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='5.1.2. Detailed process steps', page=8)
+     Automated via flex batch. STO (SPC > affiliate 7 STO from SPC to EU affiliate market Automated via flex market) Outbound Delivery 8 Supplier's OBD created automatically based on SC-STO Automated via flex (OBD) (supplier > SPC) Bundling Manifesting (Logistyx), Order will be entered in the Logistyx tr...
+
+#13  score=0.9782
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='5.1.2. Detailed process steps', page=8)
+     [TABLE START] +------+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI – C19V – VCS process for shipments to EU markets – sales via PEBV (archetype D1)' (section='5.1.2 Detailed process steps', page=12)
+     [TABLE START] +------+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#14  score=0.9780
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='5.1.2. Detailed process steps', page=10)
+     [TABLE START] +--------+----+-----------+-----------------+--------------+--------------+-----------------+----------+------------+------------+--+ | Status | | Effective | Effective Date | 02-May-2024 | Version | 3.0 | Doc Name | | SOP-113898 | | +--------+----+-----------+-----------------+-------...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.3.2 Detailed process steps', page=18)
+     [TABLE START] +--------+----+-----------+-----------------+-------------------+--------------+---------+-------------+-----+----------------+--+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | Doc Name | | SOP-113899 | | +--------+----+-----------+-----------------+----------...
+
+#15  score=0.9780
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.3.2 Detailed process steps', page=18)
+     [TABLE START] +--------+----+-----------+-----------------+-------------------+--------------+---------+-------------+-----+----------------+--+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | Doc Name | | SOP-113899 | | +--------+----+-----------+-----------------+----------...
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='5.1.2. Detailed process steps', page=10)
+     [TABLE START] +--------+----+-----------+-----------------+--------------+--------------+-----------------+----------+------------+------------+--+ | Status | | Effective | Effective Date | 02-May-2024 | Version | 3.0 | Doc Name | | SOP-113898 | | +--------+----+-----------+-----------------+-------...
+
+#16  score=0.9780
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='Document Signatures:', page=2)
+     [TABLE START] +--------+-------+------------+----------------+---------------------+-----------+---------+------+-----------+--------------------+------------------------------+ | Status | | Effective | Effective Date | 24-May-2024 | Version | 4.0 | | Doc Name | SOP-113900 | | +--------+-------+----...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.3.2 Detailed process steps', page=19)
+     [TABLE START] +--------+-------+------------+----------------+-------------------+--------------+---------+---+-----------+----------------+------------+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | | Doc Name | SOP-113899 | | +--------+-------+------------+---------------...
+
+#17  score=0.9780
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='Document Signatures:', page=3)
+     [TABLE START] +--------+-------+------------+----------------+---------------------+-----------+---------+------+-----------+--------------------+------------------------------+ | Status | | Effective | Effective Date | 24-May-2024 | Version | 4.0 | | Doc Name | SOP-113900 | | +--------+-------+----...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section=None, page=2)
+     [TABLE START] +--------+-------+------------+----------------+-------------------+--------------+---------+---+-----------+----------------+------------+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | | Doc Name | SOP-113899 | | +--------+-------+------------+---------------...
+
+#18  score=0.9780
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='3.1. Acronyms', page=4)
+     [TABLE START] +--------+-------+------------+----------------+---------------------+-----------+---------+------+-----------+--------------------+------------------------------+ | Status | | Effective | Effective Date | 24-May-2024 | Version | 4.0 | | Doc Name | SOP-113900 | | +--------+-------+----...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.3.2 Detailed process steps', page=19)
+     [TABLE START] +--------+-------+------------+----------------+-------------------+--------------+---------+---+-----------+----------------+------------+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | | Doc Name | SOP-113899 | | +--------+-------+------------+---------------...
+
+#19  score=0.9780
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=20)
+     [TABLE START] +--------+-------+------------+----------------+---------------------+-----------+---------+------+-----------+--------------------+------------------------------+ | Status | | Effective | Effective Date | 24-May-2024 | Version | 4.0 | | Doc Name | SOP-113900 | | +--------+-------+----...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='A. SAP routing (example Puurs DC shipping to Israel = IL01)', page=5)
+     [TABLE START] +--------+-------+------------+----------------+-------------------+--------------+---------+---+-----------+----------------+------------+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | | Doc Name | SOP-113899 | | +--------+-------+------------+---------------...
+
+#20  score=0.9779
+  A: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section='2. Scope', page=3)
+     This WI is applicable to Intercompany Operation Logistics and Customer Experience Singapore (IO LCE) that execute all API and Bulk importation into Japan Tollers under Supply Point Company - Pfizer Service Company / Pfizer Ireland Pharmaceuticals.
+  B: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section='2. Scope', page=3)
+     This WI is applicable to Intercompany Operation Logistics and Customer Experience Singapore (IO LCE) that execute all all finished goods shipped from Japan Tollers to Japan Market under the Supply Point Company - Pfizer Service Company / Pfizer Ireland Pharmaceuticals.
+
+#21  score=0.9779
+  A: 'WI - From Toller: Shipment of Finished goods from Japan Toller to Japan market' (section='2. Scope', page=3)
+     This WI is applicable to Intercompany Operation Logistics and Customer Experience Singapore (IO LCE) that execute all all finished goods shipped from Japan Tollers to Japan Market under the Supply Point Company - Pfizer Service Company / Pfizer Ireland Pharmaceuticals.
+  B: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section='2. Scope', page=3)
+     This WI is applicable to Intercompany Operation Logistics and Customer Experience Singapore (IO LCE) that execute all API and Bulk importation into Japan Tollers under Supply Point Company - Pfizer Service Company / Pfizer Ireland Pharmaceuticals.
+
+#22  score=0.9777
+  A: 'WI -  SFGs Registration Samples' (section='Document Signatures:', page=1)
+     [TABLE START] +------------------------------+----------------------+-------------------+ | Signature | Date/Time (GMT) | Signature Reason | +------------------------------+----------------------+-------------------+ | Bercic, Tjasa | 20-Feb-2024 14:05:27 | Quality Approval | +----------------------...
+  B: 'WI - C19V – VCS Process for overflow shipments (Puurs to European Distribution Center)' (section='Document Signatures:', page=1)
+     [TABLE START] +---------------------+----------------------+-----------------------+ | Signature | Date/Time (GMT) | Signature Reason | +---------------------+----------------------+-----------------------+ | Benítez Gómez,Celia | 12-Jul-2024 06:27:24 | Author Approval | +---------------------+-----...
+
+#23  score=0.9776
+  A: 'SOP - PEBV market transfers ' (section='5.2.', page=9)
+     [TABLE START] +------+----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'SOP - EU consignment Transfers' (section='5.2.', page=13)
+     [TABLE START] +------+----------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#24  score=0.9776
+  A: 'SOP - EU consignment Transfers' (section='5.2.', page=8)
+     Step Responsible Role Action step 1 Steps 2 to 9 Can proceed simultaneously 2 Receiving market Obtain appropriate COA/COC Local Market Representative (LMR) 3 Receiving market Complete FORM-120141- EU Consignment Transfer LMR Request Document (TRD) and request all signatures in MSB together. Relevant...
+  B: 'SOP - PEBV market transfers ' (section='5.2.', page=7)
+     Step Responsible Role Action step 1 Receiving market Obtain appropriate COA/COC or request market to provide Local Market change control document from EQMS. Representative (LMR) 2 Receiving market Complete FORM-120141- EU Consignment Transfer LMR Request Document (TRD) and request all signatures in ...
+
+#25  score=0.9776
+  A: 'SOP - PEBV market transfers ' (section='5.2.', page=7)
+     Step Responsible Role Action step 1 Receiving market Obtain appropriate COA/COC or request market to provide Local Market change control document from EQMS. Representative (LMR) 2 Receiving market Complete FORM-120141- EU Consignment Transfer LMR Request Document (TRD) and request all signatures in ...
+  B: 'SOP - EU consignment Transfers' (section='5.2.', page=8)
+     Step Responsible Role Action step 1 Steps 2 to 9 Can proceed simultaneously 2 Receiving market Obtain appropriate COA/COC Local Market Representative (LMR) 3 Receiving market Complete FORM-120141- EU Consignment Transfer LMR Request Document (TRD) and request all signatures in MSB together. Relevant...
+
+#26  score=0.9773
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.2.2. Detailed process steps', page=12)
+     If quantity and dates align with market allocation, the delivery block 'Integrity Check' from MSO will be released Will happen 2 days before inventory allocation date 3 Order Approved Manual VCS team to reject the sales order in case RSL communicates that order is not approved VCS to force complete ...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='5. Procedure', page=14)
+     Step Action step Description Input R A c I If quantity and dates align with market allocation, the delivery block 'Integrity Check' from MSO will be released Will happen 2 days before inventory allocation date 3 Order Approved Manual VCS team to reject the sales order in case RSL communicates that o...
+
+#27  score=0.9772
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.2.1. Block diagram', page=11)
+     [TABLE START] +-----------+------+------------+----------------+-------------------+--------------+-----------+-----------+-----+------------------------+------------+ | Status | | Effective | Effective Date | 29-Aug-2024 | Version | 3.0 | Doc Name | | SOP-113899 | | +-----------+------+------------...
+  B: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='6. SAP related failures', page=14)
+     [TABLE START] +--------+-------+------------+----------------+---------------------------+---------+-----------------+--+-----------+----------------+------------+ | Status | | Effective | Effective Date | 02-May-2024 | Version | 3.0 | | Doc Name | SOP-113898 | | +--------+-------+------------+-----...
+
+#28  score=0.9771
+  A: 'CD-60389 – JobAid - Manual Outbound Delivery (OBD) GLNS' (section='History of Changes', page=11)
+     [TABLE START] +---------+-----------------------------+ | Version | History of Changes | +---------+-----------------------------+ | 4.0 | Periodic review, no changes | +---------+-----------------------------+ | 3.0 | Input and Output added | +---------+-----------------------------+ | 2.0 | Update...
+  B: 'JobAid - Create a Purchase Order (PO) Stock Transfer Order (STO) From Toller' (section='History of Changes', page=7)
+     [TABLE START] +---------+--------------------------------------+ | Version | History of Changes | +---------+--------------------------------------+ | 4.0 | Periodic review, No changes required | +---------+--------------------------------------+ | 3.0 | Input and output added | +---------+---------...
+
+#29  score=0.9771
+  A: 'JobAid - Create a Purchase Order (PO) Stock Transfer Order (STO) From Toller' (section='History of Changes', page=7)
+     [TABLE START] +---------+--------------------------------------+ | Version | History of Changes | +---------+--------------------------------------+ | 4.0 | Periodic review, No changes required | +---------+--------------------------------------+ | 3.0 | Input and output added | +---------+---------...
+  B: 'CD-60389 – JobAid - Manual Outbound Delivery (OBD) GLNS' (section='History of Changes', page=11)
+     [TABLE START] +---------+-----------------------------+ | Version | History of Changes | +---------+-----------------------------+ | 4.0 | Periodic review, no changes | +---------+-----------------------------+ | 3.0 | Input and Output added | +---------+-----------------------------+ | 2.0 | Update...
+
+#30  score=0.9766
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='5.2.1. Block diagram', page=11)
+     !  Possible SAP errors are included in below table. Referring to 6. SAP related failures for resolution.  Related procedural documents to perform this action (in SAP)  Step Action step Description Input RACI Should be created 6-8 weeks prior to shipment 1 order can result in multiple OBD's: - due to...
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=13)
+     Possible SAP errors are included in below table. Referring to 6. SAP related failures for resolution.  Related procedural documents to perform this action (in SAP)  Step Action step Description Input R A c I Should be created 6-8 weeks prior to shipment 1 order can result in multiple OBD's: - due to...
+
+====================================================================================================
+NEAR-DUPLICATE MATCHES - score >= 0.98 (sanity check only, not conflict candidates)
+These pairs are near-identical text - either leftover boilerplate,
+or two documents stating the literal SAME instruction (agreement,
+not a conflict). Included so you can confirm dedup is working, not
+because these are conflict candidates.
+====================================================================================================
+
+#1  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='6. SAP related failures', page=13)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#2  score=1.0000
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.4. SAP related failures', page=19)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+
+#3  score=1.0000
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.4. SAP related failures', page=19)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#4  score=1.0000
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='6. SAP related failures', page=20)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+
+#5  score=1.0000
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='6. SAP related failures', page=20)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#6  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='6. SAP related failures', page=20)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+
+#7  score=1.0000
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.4. SAP related failures', page=19)
+     [TABLE START] +--------------+-------------+------------------------------------------------------------+ | Process step | Error | Resolution | +--------------+-------------+------------------------------------------------------------+ | MSO | Credit hold | VCS to send email to MCS with request to r...
+
+#8  score=0.9998
+  A: 'JobAid - Identify reservation (ZRES) relevant item' (section='Document Signatures:', page=1)
+     [TABLE START] +---------------------+----------------------+------------------+ | Signature | Date/Time (GMT) | Signature Reason | +---------------------+----------------------+------------------+ | De Bont, Sven | 24-Apr-2025 10:59:14 | Manager Approval | +---------------------+--------------------...
+  B: 'JobAid - ZRES batch allocation' (section='Document Signatures:', page=1)
+     [TABLE START] +---------------------+----------------------+------------------+ | Signature | Date/Time (GMT) | Signature Reason | +---------------------+----------------------+------------------+ | De Bont, Sven | 24-Apr-2025 11:06:34 | Manager Approval | +---------------------+--------------------...
+
+#9  score=0.9998
+  A: 'JobAid - ZRES batch allocation' (section='Document Signatures:', page=1)
+     [TABLE START] +---------------------+----------------------+------------------+ | Signature | Date/Time (GMT) | Signature Reason | +---------------------+----------------------+------------------+ | De Bont, Sven | 24-Apr-2025 11:06:34 | Manager Approval | +---------------------+--------------------...
+  B: 'JobAid - Identify reservation (ZRES) relevant item' (section='Document Signatures:', page=1)
+     [TABLE START] +---------------------+----------------------+------------------+ | Signature | Date/Time (GMT) | Signature Reason | +---------------------+----------------------+------------------+ | De Bont, Sven | 24-Apr-2025 10:59:14 | Manager Approval | +---------------------+--------------------...
+
+#10  score=0.9998
+  A: 'SOP - Order Processing of Paxlovid from LSP Essers to UNICEF' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  2  3.3. Related documents  3  4. General Requirements  3  5. Procedure  3  6. History of Changes  6  7. Appendix  6  Pfizer Internal Use - Page 1 of 6  Unofficial if printed  GMT
+  B: 'SOP - Order  Processing of  Prevenar vials from  LSP3 Essers' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  3  3.3. Related documents  3  4. General Requirements  3  5. Procedure  4  6. History of Changes  6  7. Appendix  6  Pfizer Internal Use - Page 1 of 6  Unofficial if printed  GMT
+
+#11  score=0.9998
+  A: 'SOP - Order  Processing of  Prevenar vials from  LSP3 Essers' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  3  3.3. Related documents  3  4. General Requirements  3  5. Procedure  4  6. History of Changes  6  7. Appendix  6  Pfizer Internal Use - Page 1 of 6  Unofficial if printed  GMT
+  B: 'SOP - Order Processing of Paxlovid from LSP Essers to UNICEF' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  2  3.3. Related documents  3  4. General Requirements  3  5. Procedure  3  6. History of Changes  6  7. Appendix  6  Pfizer Internal Use - Page 1 of 6  Unofficial if printed  GMT
+
+#12  score=0.9997
+  A: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'WI - From Toller: Shipment from Nagoya to Export Market' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+
+#13  score=0.9997
+  A: 'WI - From Toller: Shipment from Nagoya to Export Market' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+
+#14  score=0.9997
+  A: 'SOP - Order  Processing of  Prevenar vials from  LSP3 Essers' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'SOP - Order Processing of Paxlovid from LSP Essers to UNICEF' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+
+#15  score=0.9997
+  A: 'SOP - Order Processing of Paxlovid from LSP Essers to UNICEF' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'SOP - Order  Processing of  Prevenar vials from  LSP3 Essers' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+
+#16  score=0.9996
+  A: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  3  3.3. Related documents  3  4. General Requirements  3  5. Procedure  3  6. History of Changes  5  7. Appendix  5  Pfizer Internal Use - Page 1 of 5  Unofficial if printed  GMT
+  B: 'WI - From Toller: Shipment from Nagoya to Export Market' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  2  3.1. Acronyms  3.2. Definitions  2  3.3. Related documents  3  4. General Requirements  3  5. Procedure  3  6. History of Changes  5  7. Appendix  5  Pfizer Internal Use - Page 1 of 5  Unofficial if printed  GMT
+
+#17  score=0.9996
+  A: 'WI - From Toller: Shipment from Nagoya to Export Market' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  2  3.1. Acronyms  3.2. Definitions  2  3.3. Related documents  3  4. General Requirements  3  5. Procedure  3  6. History of Changes  5  7. Appendix  5  Pfizer Internal Use - Page 1 of 5  Unofficial if printed  GMT
+  B: 'WI-To Toller:Shipment of Active Pharmaceutical Ingredient/Bulk/Se mi-Finished to Japan Toller' (section=None, page=2)
+     2  1. Purpose  2. Scope  2  3. Acronyms, Definitions & Related documents  2  3.1. Acronyms  2  3.2. Definitions  3  3.3. Related documents  3  4. General Requirements  3  5. Procedure  3  6. History of Changes  5  7. Appendix  5  Pfizer Internal Use - Page 1 of 5  Unofficial if printed  GMT
+
+#18  score=0.9994
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='5. Procedure', page=17)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=17)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#19  score=0.9994
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=17)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='5. Procedure', page=13)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#20  score=0.9994
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='5. Procedure', page=13)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=17)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#21  score=0.9994
+  A: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='5. Procedure', page=8)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=17)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#22  score=0.9991
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.3.2 Detailed process steps', page=15)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI-ULS-GLNS VCS  process for POLLC  shipments' (section='5.1.2. Detailed process steps', page=19)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#23  score=0.9991
+  A: 'WI-ULS-GLNS VCS  process for POLLC  shipments' (section='5.1.2. Detailed process steps', page=19)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.3.2 Detailed process steps', page=15)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#24  score=0.9988
+  A: 'WI - C19V – VCS Process for shipments to EU-affiliate markets – sales via PSC (archetype A2)' (section='6. SAP related failures', page=13)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request MSO Credit hold to release the order
+  B: 'WI - C19V – VCS Process for shipments to Central America and Caribbean - sales via Pfizer Free Trade Zone Panama (archetype A6)' (section='6. SAP related failures', page=21)
+     Below table gives an overview of the most common SAP failures that could occur in this process flow. The VCS team is responsible for a proper resolution.  Process step Error Resolution VCS to send email to MCS with request to MSO Credit hold release the order
+
+#25  score=0.9988
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.1.2. Detailed process steps', page=7)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI-ULS-GLNS VCS  process for POLLC  shipments' (section='5.1.2. Detailed process steps', page=15)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#26  score=0.9988
+  A: 'WI-ULS-GLNS VCS  process for POLLC  shipments' (section='5.1.2. Detailed process steps', page=15)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.1.2. Detailed process steps', page=7)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#27  score=0.9987
+  A: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=13)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI-ULS-GLNS VCS  process for POLLC  shipments' (section='5.1.2. Detailed process steps', page=15)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#28  score=0.9987
+  A: 'CD - Shipment for Manufacturing Plant' (section='CD - " Shipment for Manufacturing Plant" (don\'t delete this title)', page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'WI - From Toller: Shipment from Nagoya to Export Market' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+
+#29  score=0.9984
+  A: 'WI - C19V – VCS process for shipments to non- EU affiliate markets – sales via PSC (archetype A3)' (section='5.2.2. Detailed process steps', page=11)
+     [TABLE START] +---+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+  B: 'WI - C19V - VCS process for shipments to non-EU affiliate  markets with single ship-to location - sales via PSC (archetype A5)' (section='5.1.2. Detailed process steps', page=13)
+     [TABLE START] +------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...
+
+#30  score=0.9982
+  A: 'WI - Inventory Adjustment for blocked back flush for Nagoya' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+  B: 'SOP - Order Processing of Paxlovid from LSP Essers to UNICEF' (section=None, page=2)
+     [TABLE START] +------+-------------------------------------------+---+ | 1. | Purpose | 2 | +------+-------------------------------------------+---+ | 2. | Scope | 2 | +------+-------------------------------------------+---+ | 3. | Acronyms, Definitions & Related documents | 2 | +------+------------...
+PS C:\Users\Administrator\Documents\git-rep\ModularFinal\kms-aichatbot-repository\KMSChatbotProjAgenticAI> 
