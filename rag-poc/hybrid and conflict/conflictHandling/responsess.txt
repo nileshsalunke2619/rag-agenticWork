@@ -1,0 +1,21 @@
+{
+    "answer": {
+        "description": "Plant BE85 refers to the Supply Point Company (SPC) plant operated under the ownership of PIP, used in the VCS process for overflow shipments from Puurs to European Distribution Centers. In this process, a stock-transfer-order (STO) first moves goods from Puurs (BE37) to BE85, and BE85 is where the first manual Usage Decision (batch release) must occur before the transaction continues to plant BE45 for a second release, and finally on to DE52 (Karlsruhe DC) or DE54 (Hegele DC). BE85 is also one of the two plants (along with BE45) where a ZPMON error message can appear indicating that a manual UD (batch release) is required.",
+        "header": "Plant BE85",
+        "subheader": "",
+        "references": [
+            "WI - C19V – VCS Process for overflow shipments (Puurs to European Distribution Center)",
+            " Evening shift essentials"
+        ],
+        "documentids": [
+            "SOP-113916",
+            "Evening shift essentials"
+        ],
+        "followupquestions": [
+            "What is the process for releasing a batch at plant BE85 when the ZPMON error appears?",
+            "What happens after the batch is released at BE45?"
+        ],
+        "steps": []
+    },
+    "answeroption": {}
+}
