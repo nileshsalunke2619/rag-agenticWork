@@ -1,0 +1,35 @@
+RAG update based on feedback 
+Post /agent/v1/orchestration/chat
+Read the question from payload -> do embedding   of questions
+                Search in the Feedback Vector DB/Index with K=1
+                Threshold with > 90% {
+                                Return to Java/API layer with response json (because response is {“answer”})
+                                }
+                Else {
+Which things are doing current – 
+Post /agent/v1/orchestration/chat
+Reading from payload question 
+                Embedding 
+                Search from Vector DB 
+                                Other steps 
+}
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++
+
+feedback <<only positive feedback>>
+Note – we will not keep in feedback VD index of negative, outdated, in complete 
+Invalid the feedback or incache  - phase2
+
+Payload for feedback
+{
+    "userid": akhilesh.kumar2@pfizer.com, dummy
+    "question": "what is order creation",
+    "questionid": 1785603829793_akhilesh.kumar2@pfizer.com,
+    "feedback": "thumsup|down|notrelavent|outdated",
+“responseJSON” : “complete answith reference (docid)” 
+}
+
+--- 
