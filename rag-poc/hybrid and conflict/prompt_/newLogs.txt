@@ -1,0 +1,11 @@
+ C:\Users\Administrator\Documents\git-rep\ModularFinal\kms-aichatbot-repository> python -m app.scripts.create_feedback_index
+C:\Users\Administrator\AppData\Local\Python\pythoncore-3.14-64\python.exe: Error while finding module specification for 'app.scripts.create_feedback_index' (ModuleNotFoundError: No module named 'app')
+PS C:\Users\Administrator\Documents\git-rep\ModularFinal\kms-aichatbot-repository> cd .\KMSChatbotProjAgenticAI\
+PS C:\Users\Administrator\Documents\git-rep\ModularFinal\kms-aichatbot-repository\KMSChatbotProjAgenticAI> python -m app.scripts.create_feedback_index
+2026-08-27 08:36:22 | INFO     | botocore.credentials | Found credentials from IAM Role: CUSPFE-S3ListPolicyKMSRole
+2026-08-27 08:36:22 | INFO     | botocore.credentials | Found credentials from IAM Role: CUSPFE-S3ListPolicyKMSRole
+2026-08-27 08:36:23 | INFO     | app.vectordb.opensearch_client | [opensearch_client] Calling AWS as identity: Account=892880329963 Arn=arn:aws:sts::892880329963:assumed-role/CUSPFE-S3ListPolicyKMSRole/i-06d7279ee5a63fa0b
+2026-08-27 08:36:23 | INFO     | app.vectordb.opensearch_client | [opensearch_client] Connection settings: HOST=mc9xamsc1uiy9cxgnwt9.aoss.ap-southeast-1.on.aws PORT=443 INDEX=kms-index-sop-oz SERVICE=aoss REGION=ap-southeast-1
+2026-08-27 08:36:23 | INFO     | opensearch | HEAD https://mc9xamsc1uiy9cxgnwt9.aoss.ap-southeast-1.on.aws:443/kms-index-feedback [status:200 request:0.125s]
+2026-08-27 08:36:23 | INFO     | __main__ | [create_feedback_index] Index 'kms-index-feedback' already exists - doing nothing. Delete it manually first if you need to recreate it with a different mapping.
+PS C:\Users\Administrator\Documents\git-rep\ModularFinal\kms-aichatbot-repository\KMSChatbotProjAgenticAI> 
