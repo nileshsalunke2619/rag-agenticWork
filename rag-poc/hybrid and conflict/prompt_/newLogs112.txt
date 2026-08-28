@@ -1,0 +1,8 @@
+from app.api.routes.chat import router as chat_router
+  File "D:\GIT-REP\kms-aichatbot-repository\KMSChatbotProjAgenticAI\app\api\routes\chat.py", line 29, in <module>
+    from app.ingestion.feedback_ingest import ingest_question
+  File "D:\GIT-REP\kms-aichatbot-repository\KMSChatbotProjAgenticAI\app\ingestion\feedback_ingest.py", line 5, in <module>
+    from app.tools.feedback_opensearch_client import client, ensure_feedback_index_exists, index_name
+  File "D:\GIT-REP\kms-aichatbot-repository\KMSChatbotProjAgenticAI\app\tools\feedback_opensearch_client.py", line 4, in <module>
+    from requests_aws4auth import AWS4Auth
+ModuleNotFoundError: No module named 'requests_aws4auth'
