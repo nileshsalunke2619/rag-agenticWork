@@ -1,0 +1,25 @@
+How to get last question for userid
+
+What will be more steps here
+
+{"userid":"akhilesh.kumar2@pfizer.com",
+"question":" What will be more steps here",
+"questionid":"1788159501808_akhilesh.kumar2@pfizer.com",
+"isfollowup":"n"
+“lastquestion”:” How to create sales order”
+”,
+}
+
+
+RAG 
+Question – get from payloads from fastAPI /agent/v1/orchestration/chat
+Lastquestion – get from payload
+<<reframe the question using LLM with 1000 chars >>      
+                                Current question 
+                                Last asked question 
+                                Send to LLM for reframe the question
+
+Embedding the question 
+Search in vector 
+:
+:
