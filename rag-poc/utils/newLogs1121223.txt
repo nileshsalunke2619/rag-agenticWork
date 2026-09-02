@@ -1,0 +1,8 @@
+ingest_question() searches for existing docs sharing the same document_id and blanks their response/option to "":
+
+
+existing = client.search(index=index_name, body={"query": {"term": {"document_id": document_id}}})
+if total_hits > 0:
+    for hit in existing["hits"]["hits"]:
+        client.update(index=index_name, id=hit["_id"], body={"doc": {"response": "", "option": ""}})
+The problem: it keys this on document_id, not question_id. In an SOP knowledge base, many different questions legitimately cite the same source document. So a thumbsup on Question B (which happens to cite the same SOP as Question A) silently blanks out Question A's already-good cached answer, even though they're unrelated questions. Every new thumbsup wipes every other cached entry that shares its cited document, leaving only the most recent one intact.
