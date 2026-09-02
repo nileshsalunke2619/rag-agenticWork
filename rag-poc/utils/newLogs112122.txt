@@ -1,0 +1,39 @@
+Replace the "find by document_id → blank → always index new" block with: if the nearest existing question is a near-duplicate (score above threshold), update that exact document in place; otherwise index a new one.
+
+
+SAME_QUESTION_THRESHOLD = 0.90  # match the chat-side cache threshold
+
+doc = {
+    "question": request.question,
+    "question_id": request.questionid,
+    "document_id": document_id,
+    "user_id": request.userid,
+    "embedding": embedding,
+    "response": safe_response,
+    "chunk_id": chunk_id,
+    "source": request.source,
+    "option": request.option,
+    "nearest_feedback_score": nearest_feedback_score,
+}
+doc = sanitize_payload(doc)
+
+is_valid, validation_result = validate_json_payload(doc)
+if not is_valid:
+    raise ValueError(f"Invalid JSON payload: {validation_result}")
+
+# Only refresh an EXISTING entry if it's actually a near-duplicate
+# QUESTION (via the kNN lookup already done above) - not "cites the
+# same document," which was wiping unrelated questions' cached answers.
+if myhits and nearest_feedback_score >= SAME_QUESTION_THRESHOLD:
+    target_id = myhits[0]["_id"]
+    client.update(index=index_name, id=target_id, body={"doc": doc})
+    result = {"_id": target_id, "result": "updated"}
+else:
+    result = client.index(index=index_name, body=doc, id=request.questionid)
+Remove the whole existing = client.search(...) / if total_hits > 0: ... client.update(..., {"response": "", "option": ""}) block entirely — that's the part causing cross-question corruption.
+
+One more thing to fix alongside this: myhits is currently only assigned inside the try: block above (the nearest-score lookup). If that lookup ever throws, myhits won't exist and the code above will raise NameError. Initialize it up front:
+
+
+nearest_feedback_score = 0.0
+myhits = []   # add this
