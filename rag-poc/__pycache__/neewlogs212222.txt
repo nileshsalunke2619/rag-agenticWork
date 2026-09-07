@@ -1,0 +1,10 @@
+2026-09-07T11:24:44.494000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 INFO:     127.0.0.1:50492 - "GET /health HTTP/1.1" 200 OK
+2026-09-07T11:24:44.810000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 INFO:     127.0.0.1:50494 - "GET /health HTTP/1.1" 200 OK
+2026-09-07T11:25:13.652000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 2026-09-07 11:25:13 | INFO     | app.api.routes.chat | [2f90994d] Received question: 'What is the process if quantity in OBD needs to be changed after being sent to the warehouse?', lastquestion: 'Who is responsible for order management and shipment processing according to customer priorities?', isfollowup: 'n'
+2026-09-07T11:25:13.652000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 2026-09-07 11:25:13 | INFO     | app.api.routes.chat | [2f90994d] [reframe] Gate PASSED - calling reframe_query()
+2026-09-07T11:25:14.513000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 INFO:     127.0.0.1:53274 - "GET /health HTTP/1.1" 200 OK
+2026-09-07T11:25:14.839000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 INFO:     127.0.0.1:53288 - "GET /health HTTP/1.1" 200 OK
+2026-09-07T11:25:15.594000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 2026-09-07 11:25:15 | INFO     | app.api.routes.chat | [2f90994d] [reframe] Result - original: 'What is the process if quantity in OBD needs to be changed after being sent to the warehouse?' -> effective: 'What is the process if the quantity in the Outbound Delivery (OBD) needs to be changed after it has been sent to the warehouse?'
+2026-09-07T11:25:41.186000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 2026-09-07 11:25:41 | INFO     | app.api.routes.chat | [2f90994d] Request completed successfully in 27.53s
+2026-09-07T11:25:41.187000+00:00 ecs/kms-agent/da6646131d2d49b5a94e1ae5193a6c29 INFO:     10.116.88.113:0 - "POST /agent/v1/orchestrate/chat HTTP/1.1" 200 OK
+~ $
