@@ -1,0 +1,74 @@
+UAT/SIT Defect KMS AI: Content mismatch between source SOP document and chatbot response
+
+
+Description
+
+Query: What is the purpose of SOP-104302?
+
+What is the purpose of SOP-100167?
+
+What is the scope of SOP-104302?
+
+What is the scope of SOP-100167?
+
+
+
+Adding relevance (Accuracy percentage) with remarks
+
+Query
+
+Chatbot response
+
+Accuracy %
+
+Verdict
+
+Remarks
+
+What is the purpose of SOP-104302?
+
+SOP-104302 Purpose (Insufficient Context)
+The retrieved context does not include the actual purpose statement for SOP-104302 ("SOP - Logistic Center End-to-End Order Processing"). The only chunk retrieved for this document contains its file/document metadata (document ID and storage location) rather than its Purpose section text. Other retrieved chunks reference SOP-104302 as a linked document but do not restate its purpose. Please provide the Purpose section of SOP-104302, or let me know if you'd like information on a related SOP whose purpose is available (such as transshipment processing or consignment management).
+
+20%
+
+Fail
+
+SOP-104302 is a core document repeatedly referenced by SOP-101509 and SOP-128313. The chatbot failed to retrieve the Purpose section and incorrectly returned a metadata-only response.
+
+What is the purpose of SOP-100167?
+
+The retrieved context for SOP-100167 ("SOP - Order processing of in-stock-out (ISO) orders shipped from Logistics Service Provider (LSP) Essers (Belgium) and UPS (Hungary)") only includes document identification metadata, not the actual Purpose section text. I don't have the specific purpose statement for this SOP in the available context, so I can't provide a grounded answer. Could you confirm if you'd like me to look at a related order processing SOP, or provide additional context from the Purpose section of SOP-100167?
+
+30%
+
+Fail
+
+The chatbot should have been able to retrieve the Purpose section instead of saying it was unavailable.
+
+What is the scope of SOP-104302?
+
+The retrieved context only contains metadata for SOP-104302 (such as its title, version, effective date, and site/department code) and references to other documents that are linked to it as an alias. It does not include the actual scope statement or purpose section of SOP-104302 itself, so I can't provide the specific scope from the available documentation. Could you point me to the section of the SOP that defines scope, or would you like information on the documents linked to SOP-104302 instead?
+
+References:
+SOP - Logistic Center End-to-End Order Processing SOP-104302
+
+20%
+
+Fail
+
+Retrieval failure. Scope information should be available from the SOP itself if properly indexed.
+
+What is the scope of SOP-100167?
+
+The retrieved context does not include an explicit "Scope" statement for SOP-100167. What is available only shows document metadata - SOP-100167 is titled "Order processing of in-stock-out (ISO) orders shipped from Logistics Service Provider (LSP) Essers (Belgium) and UPS (Hungary)," is currently at Version 6.0 with an effective date of 21-Nov-2025, is linked to SOP-104302, and belongs to the LDC / GL&NS site code/department. This confirms the document covers ISO order processing shipped via Essers (Belgium) and UPS (Hungary), including topics such as the In-stock-In (ISI) process and the Essers Stock List, but the specific scope boundaries are not present in the retrieved chunks. Please let me know if you'd like me to look for the dedicated Scope section of this SOP.
+
+References:
+SOP - Order processing of in-stock-out (ISO) orders shipped from Logistics Service Provider (LSP) Essers (Belgium) and UPS (Hungary) SOP-100167
+
+40%
+
+Partially Correct
+
+It correctly identifies the document subject area from metadata, but fails to provide the actual Scope section from the uploaded SOP.
+

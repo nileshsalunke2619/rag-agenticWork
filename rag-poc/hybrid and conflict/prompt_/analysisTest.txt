@@ -1,0 +1,19 @@
+KMS AI: Same Query Returns Different Responses on Multiple Submissions
+
+Description:
+When the exact same query is submitted multiple times, the chatbot generates different responses instead of providing a consistent answer based on the same source documents and context. This leads to inconsistency in information presented to users and may cause confusion regarding the correct process or guidance.
+
+query: What shipment details must be emailed for approval?
+
+1st response: I don't see any retrieved content that specifically addresses the details required for an email approval when breaking a transshipment XD Ocean order for breakbulk handling by the LSP. The available context covers general transshipment processes (via LSP and via X-dock), secured road transport insurance approvals, and restricted market shipment approval emails, but none of these specifically describe the breakbulk-handling approval process for an XD Ocean order. Could you confirm if you're referring to a specific SOP section on breakbulk handling, or provide more detail so I can locate the right procedure?
+
+2nd Response:
+
+Shipment Approval Email Requirements
+By Scenario
+The specific shipment details required for an approval e-mail depend on the shipment scenario. For an order/shipment involving a restricted market, the GL&NS LCZ (Sr.) CSR must send an e-mail to the GL&NS LCZ Lead and GL&NS LCZ CS (Sr.) Manager containing: the customer's sold-to and ship-to name and address, the date of the proposed shipment, the mode of transportation (air, road, or ocean), and the carrier (airline, trucking line, or vessel); this must be reviewed and approved within 8 working hours, with urgency noted if a faster response is needed. For a shipment whose value exceeds the established limits, the GL&NS CF must instead notify the Insurance and Risk Management team and obtain their written approval prior to shipment, with that approval archived in OpenText. Separately, for shipment/invoice values exceeding 50M USD, a specific approval e-mail template (available on the I drive) must be used when requesting approval from Frank Santomauro, though the exact content fields of that template are not detailed in the retrieved material.
+
+References:
+SOP - Order and Shipment Processing for Restricted Markets SOP-109880
+Processing of transshipments via X dock (XD) SOP-101509
+6. Shipping Docs - Invoices 6. Invoicing - Shipping docs.one
