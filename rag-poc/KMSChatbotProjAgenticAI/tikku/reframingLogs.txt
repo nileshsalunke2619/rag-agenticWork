@@ -1,0 +1,8 @@
+2026-10-08 11:06:38 | INFO | app.api.routes.chat | [8c4a915e] [reframe] Result - original: 'What information is required in FORM-120141?' -> effective: 'What information is required in FORM-120141?'	f2aa18e5ec784529a13a00920deb4b4c	kms-agent
+October 8, 2026, 16:36	2026-10-08 11:06:37 | INFO | app.api.routes.chat | [8c4a915e] [reframe] Gate PASSED - calling reframe_query()	f2aa18e5ec784529a13a00920deb4b4c
+October 8, 2026, 16:27	2026-10-08 10:57:06 | INFO | app.api.routes.chat | [16a14720] [reframe] Result - original: 'What are the detailed steps for manually creating a Sales Order using the job aid CD-60395?' -> effective: 'What are the detailed steps for manually creating a Sales Order using the job aid CD-60395?'	f2aa18e5ec784529a13a00920deb4b4c
+October 8, 2026, 16:27	2026-10-08 10:57:05 | INFO | app.api.routes.chat | [16a14720] [reframe] Gate PASSED - calling reframe_query()	f2aa18e5ec784529a13a00920deb4b4c
+October 8, 2026, 16:26	2026-10-08 10:56:33 | INFO | app.api.routes.chat | [d616f5cd] [reframe] Result - original: 'what is Manual Sales Order (SO) ' -> effective: 'What is Manual Sales Order (SO)?'	f2aa18e5ec784529a13a00920deb4b4c
+October 8, 2026, 16:26	2026-10-08 10:56:30 | INFO | app.api.routes.chat | [d616f5cd] [reframe] Gate PASSED - calling reframe_query()	f2aa18e5ec784529a13a00920deb4b4c
+October 8, 2026, 16:25	2026-10-08 10:55:22 | INFO | app.api.routes.chat | [d69235b3] [reframe] Result - original: 'how to raise sales order' -> effective: 'How to raise a sales order?'	f2aa18e5ec784529a13a00920deb4b4c
+October 8, 2026, 16:25	2026-10-08 10:55:21 | INFO | app.api.routes.chat | [d69235b3] [reframe] Gate PASSED - calling reframe_query()	f2aa18e5ec784529a13a00920deb4b4c
